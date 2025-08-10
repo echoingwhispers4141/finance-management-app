@@ -1,0 +1,5 @@
+out/
+*.class
+*.log
+*.tmp
+javafx-sdk-24.0.1/

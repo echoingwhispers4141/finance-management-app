@@ -1,0 +1,60 @@
+/* style.css */
+
+/* Root pane background */
+.root {
+    -fx-background-color: #F5F5F5;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* Table header styling */
+.table-view .column-header-background {
+    -fx-background-color: #1976D2; /* Blue */
+}
+.table-view .column-header, .table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Table row hover */
+.table-row-cell:hover {
+    -fx-background-color: #E3F2FD; /* Light Blue */
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #1976D2;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8 15 8 15;
+    -fx-background-radius: 4;
+}
+.button:hover {
+    -fx-background-color: #1565C0; /* Darker blue on hover */
+}
+.button:pressed {
+    -fx-background-color: #0D47A1;
+}
+
+/* Labels for summary */
+.label {
+    -fx-text-fill: #333333;
+}
+
+/* Dialog styling */
+.dialog-pane {
+    -fx-background-color: #FFFFFF;
+}
+.dialog-pane .button {
+    -fx-background-color: #0288D1;
+}
+.dialog-pane .button:hover {
+    -fx-background-color: #0277BD;
+}
+.dialog-pane .header-panel {
+    -fx-background-color: #1976D2;
+}
+.dialog-pane .header-panel .label {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
