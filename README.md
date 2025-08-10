@@ -40,5 +40,5 @@ notes:
   - The app runs fully in-memory, no external database is required.
 
 author:
-  name: Sudeep Phogat
+  name: Kalpit
   github: https://github.com/echoingwhispers4141
